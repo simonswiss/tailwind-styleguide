@@ -1,0 +1,32 @@
+{
+  "name": "vue-tailwind",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "Simon Vrachliotis <simon@simonswiss.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "graphql-request": "^1.6.0",
+    "nuxt": "^1.4.0",
+    "tailwindcss": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-vue": "^4.5.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-loader": "^2.1.5",
+    "postcss-url": "^7.3.2"
+  }
+}
