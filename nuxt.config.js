@@ -3,11 +3,12 @@ module.exports = {
    ** Headers of the page
    */
   head: {
-    titleTemplate: '%s | vue-tailwind',
+    titleTemplate: '%s | Tailwind Styleguide',
     htmlAttrs: {
       lang: 'en'
     },
-    meta: [{
+    meta: [
+      {
         charset: 'utf-8'
       },
       {
@@ -20,11 +21,13 @@ module.exports = {
         content: 'Nuxt.js project'
       }
     ],
-    link: [{
-      rel: 'icon',
-      type: 'image/x-icon',
-      href: '/favicon.ico'
-    }]
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/x-icon',
+        href: '/favicon.ico'
+      }
+    ]
   },
   /*
    ** Load global CSS
@@ -52,10 +55,7 @@ module.exports = {
     /*
      ** Run ESLint on save
      */
-    extend(config, {
-      isDev,
-      isClient
-    }) {
+    extend(config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',

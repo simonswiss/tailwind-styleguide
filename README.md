@@ -1,10 +1,12 @@
-# vue-tailwind
+# Tailwind Styleguide
+
+A quick demo to showcase how to import the TailwindCSS config file into the front end and iterate over the options.
 
 > Nuxt.js project
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ npm install # Or yarn install
 
