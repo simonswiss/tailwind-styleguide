@@ -8,7 +8,7 @@ A quick demo to showcase how to import the TailwindCSS config file into the fron
 
 ```bash
 # install dependencies
-$ npm install # Or yarn install
+$ npm install # Or yarn
 
 # serve with hot reload at localhost:3000
 $ npm run dev
